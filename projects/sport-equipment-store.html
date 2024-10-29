@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Equipment Store - Progetti</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <article class="project-post">
+        <header class="project-header">
+            <a href="../index.html#projects" class="back-button">← Torna ai progetti</a>
+            <h1>Sport Equipment Store</h1>
+            <div class="project-meta">
+                <span><i class="fas fa-calendar"></i> Marzo 2024</span>
+                <span><i class="fas fa-code"></i> React + Node.js</span>
+            </div>
+        </header>
+
+        <div class="project-content">
+            <img src="https://picsum.photos/1200/600?random=1" alt="Sport Equipment Store Preview" class="project-hero-image">
+            
+            <section class="project-overview">
+                <h2>Overview</h2>
+                <p>E-commerce completo per la vendita di articoli sportivi con funzionalità avanzate di gestione magazzino e area clienti personalizzata. Il progetto è stato sviluppato utilizzando React per il frontend e Node.js per il backend.</p>
+            </section>
+
+            <section class="project-features">
+                <h2>Caratteristiche Principali</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h3>Carrello Dinamico</h3>
+                        <p>Gestione avanzata del carrello con aggiornamento in tempo reale</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-user"></i>
+                        <h3>Area Clienti</h3>
+                        <p>Dashboard personalizzata per ogni cliente</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-box"></i>
+                        <h3>Gestione Magazzino</h3>
+                        <p>Sistema automatizzato di gestione scorte</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-tech">
+                <h2>Stack Tecnologico</h2>
+                <div class="tech-stack">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                    <span>Express</span>
+                    <span>Redux</span>
+                    <span>Stripe</span>
+                </div>
+            </section>
+
+            <section class="project-challenges">
+                <h2>Sfide e Soluzioni</h2>
+                <div class="challenge-card">
+                    <h3>Gestione Real-time del Magazzino</h3>
+                    <p>La sfida principale è stata implementare un sistema che aggiornasse le disponibilità in tempo reale per evitare sovrapposizioni negli ordini.</p>
+                    <h4>Soluzione:</h4>
+                    <p>Implementato WebSocket per la comunicazione in tempo reale tra client e server, con un sistema di cache per ottimizzare le performance.</p>
+                </div>
+            </section>
+        </div>
+    </article>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html> 
