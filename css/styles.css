@@ -32,12 +32,12 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    padding: 1.5rem;
+    padding: 1rem;
     z-index: 9999;
     display: flex;
-    gap: 1rem;
-    background: rgba(10, 10, 10, 0.8);
-    backdrop-filter: blur(10px);
+    gap: 0.8rem;
+    background: rgba(10, 10, 10, 0.5);
+    backdrop-filter: blur(8px);
     border-radius: 0 0 0 20px;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -52,13 +52,13 @@ body {
 
 .nav-link {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-decoration: none;
     color: var(--text-primary);
-    padding: 0.8rem 1.2rem;
+    padding: 0.6rem 1rem;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.1);
